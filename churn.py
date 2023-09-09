@@ -39,7 +39,7 @@ plt.show()
 #No Missing Data Found
 
 plt.figure(figsize=(12, 12))
-sns.heatmap(churn.corr() > 0.7, annot=True, cbar=False)
+sns.heatmap(churn.corr(), annot=True, cbar=False)
 plt.show()
 
 churn.head()
