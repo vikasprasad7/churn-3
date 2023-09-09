@@ -15,7 +15,9 @@ warnings.filterwarnings('ignore')
 
 #Loading Dataset
 
-churn = pd.read_csv('customer_churn_2.csv')
+file1 = customer_churn_2.csv
+
+churn = pd.read_csv(file1)
 churn.head()
 
 #Data Exploration
